@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/avatarView"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_person_placeholder"
+        android:contentDescription="@string/user_avatar" />
+
+    <TextView
+        android:id="@+id/textUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/avatarView"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="User Name" />
+
+    <TextView
+        android:id="@+id/textUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/avatarView"
+        android:layout_below="@id/textUserName"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#B0B0B0"
+        android:textSize="14sp"
+        tools:text="user@example.com" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/avatarView"
+        android:layout_marginTop="12dp"
+        android:background="#33FFFFFF" />
+
+</RelativeLayout>

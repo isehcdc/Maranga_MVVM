@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MvvM</string>
+    <string name="product_image">Product image</string>
+    <string name="user_avatar">User avatar</string>
+    <string name="products">Products</string>
+    <string name="users">Users</string>
+</resources>
